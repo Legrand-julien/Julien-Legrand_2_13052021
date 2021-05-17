@@ -3,28 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
 </head>
 <body>
     <header>
-        <p><img src="images/logo/Reservia.svg" alt="logo_Reservia" /></p>
-            
-            <nav>
-                <ul>
-                    <li id="hebergements"><a href="#hebergements">Hébergements</a></li>
-                    <li id="activites"><a href="#activites">Activités</a></li>
-                </ul>
-                <p>
-                    <a href="#">S'inscrire</a>
-                </p>
+        <span><img class="logo" src="images/logo/Reservia.svg" alt="Logo_Reservia" /></span>
+            <nav id="navigation">
+                <a href="#hebergements">Hébergements</a>
+                <a href="#activites">Activités</a>             
+                <a href="#">S'inscrire</a>
             </nav>
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+    </header>
+            <section id="title">
+                <div>        
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p class="city">En plein centre ville ou en pleine nature</p>
+                </div>
+            </section>        
+        
+                <section id="searchbar"> 
+                    <div class="search">
+                        <i class="fas fa-map-marker-alt"></i>
+                            <input type="ville" id="recherche" value="Marseille, France" />
+                            <input type="button" class="rechercher" value="RECHERCHER" /><br />
+                    </div>
+                </section>
+
+                <section id="filters">
+                    <div>
+                        <span>Filtres</span>
+                            <button class="icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                                    <span>Économiques</span>
+                            </button>
+                            <button class="icon">
+                                <i class="fas fa-child"></i>
+                                    <span>Familial</span>
+                            </button>
+                            <button class="icon">
+                                <i class="fas fa-heart"></i>
+                                    <span>Romantique</span>
+                            </button>
+                            <button class="icon">
+                                <i class="fas fa-dog"></i>
+                                    <span>Animaux autorisés</span>
+                            </button>
+                    </div>
+                </section>
+
+                <section></section>
+
+           
+
+
+
+        
         
             
-    </header>
+    
     
 </body>
 </html>
