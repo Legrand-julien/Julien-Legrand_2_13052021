@@ -3,64 +3,71 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
-
+/* HEADER */
 #headerbox a
 {
-    color: black;
     text-decoration: none;
+    color: black;
+    font-weight: normal;
 }
 
-#headerbox span
+#headerbox nav 
 {
-    color: #0065FC;
-}
-#headerbox li 
-{
-    list-style-type: none;
-    float: left;
-    font-size: 20px;
-    padding: 5px;
-    margin: 5px;
-}
-
-#headerbox nav
-{   
+    background-color: lightslategrey;
+    
     display: flex;
     justify-content: flex-end;
+    align-items: stretch;
     height: 100px;
-    width: 100%;   
+}
+
+#headerbox li 
+{
+    display: inline-flex;
+    align-items: center;
+    height: 70px;
+    padding: 5px;
+    margin: 30px;
+    margin-top: -14px;
 }
 
 #headerbox img 
-{
-    position: relative;
-    bottom: 45px; 
+{   
+    position: absolute;
+    left: 10px;
+    top: 50px;
 }
 
 #headerbox nav li:hover 
 {
-    margin-top: 2px;
-    border-top: 2px inset #0065FC;
-    color: #0065FC;
+    border-top: solid 2px #0065fc;
+    padding-top: 0px;
 }
 
-#headerbox nav li
+#headerbox nav a:hover
 {
-    padding: 15px;
+    color: #0065fc;
 }
 
-#title p
+li span
 {
-    color: black;
-    opacity: 80%; 
+    color: #0065fc;
 }
 
-#title p, h1
+
+
+/* TITRE */
+
+h1
 {
-    padding: 0;
-    margin: 1px;
+    font-size: 25px;
+    font-weight: bolder;
+     
 }
 
+#title 
+
+/* BARRE DE RECHERCHE */
 .searchbar
 {
     display: flex;
@@ -78,11 +85,10 @@ body
     background-color: lightskyblue;
 }
 
-/*INFO ICON*/
+/* INFO ICON */
 
 #info
 {
-    background-color: antiquewhite;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -102,7 +108,7 @@ body
     margin-bottom: 2px;
 }
 
-/*SECTION FILTERS*/
+/* SECTION FILTERS */
 
 #filters
 {
@@ -149,7 +155,7 @@ body
 }
 
 
-/*SECTION HEBERGEMENTS*/
+/* SECTION HEBERGEMENTS */
 
 #lodging a
 {
@@ -208,7 +214,7 @@ body
 }
 
 
-/*SECTION ACTIVITES*/
+/* SECTION ACTIVITES */
 
 #activities a, h3
 {
@@ -292,7 +298,7 @@ body
     object-fit: cover;
 }
 
-/*PIED DE PAGE*/
+/* FOOTER */
 
 #footerbox
 {
