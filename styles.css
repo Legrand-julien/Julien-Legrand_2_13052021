@@ -12,9 +12,7 @@ body
 }
 
 #headerbox nav 
-{
-    background-color: lightslategrey;
-    
+{ 
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
@@ -36,6 +34,7 @@ body
     position: absolute;
     left: 10px;
     top: 50px;
+    color: #0065fc;
 }
 
 #headerbox nav li:hover 
@@ -54,59 +53,80 @@ li span
     color: #0065fc;
 }
 
-
-
 /* TITRE */
+
+#title 
+{
+    margin-top: -2px;
+}
 
 h1
 {
-    font-size: 25px;
-    font-weight: bolder;
-     
+    font-size: 45px;
+    font-weight: bold;
 }
 
-#title 
+#title p 
+{
+    margin-top: -15px;
+}
 
-/* BARRE DE RECHERCHE */
+/* SECTION RECHERCHE */
+
+#searchbr
+{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+
 .searchbar
 {
     display: flex;
-    background-color: lightcoral;
-}
+    height: 50px;
+    
+} 
 
-.search, .searchbtn, .fa-map-marker-alt
-{   
-    font-size: 30px;
-}
-
-.fa-map-marker-alt
-{    
-    order: -1;
-    background-color: lightskyblue;
-}
-
-/* INFO ICON */
-
-#info
+.searchbar .searchbtn
 {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+    width: 140px;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-style: none;
+    background-color: #0065fc;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 }
-#info .icon
+
+.searchbar .fa-search
 {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #F2F2F2;
-    border-radius: 25px;
-    margin-right: 10px;   
+   visibility: hidden;
 }
-#info .fa-info
+
+.searchbar .search
 {
-    color: #0065FC;
-    margin-left: 8px;
-    margin-bottom: 2px;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 250px;
+    height: 48px;
 }
+
+.searchbar .fa-map-marker-alt 
+{
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 18px;
+    background-color: #F2F2F2;
+    order: -2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
 
 /* SECTION FILTERS */
 
@@ -116,15 +136,15 @@ h1
     align-items: center;
     background-color: cadetblue;
     width: 100%;
-    font-size: 20px;
-    margin: 0;
-       
+    font-size: 25px;
+    margin-top: 30px;    
 }
+
 #filters .icon
 {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    display: inline-flex;
     width: 30px;
     height: 30px;
     margin: 0;
@@ -152,6 +172,29 @@ h1
 #filters .icon:hover
 {
     color: darkblue;
+}
+
+/* INFO ICON */
+
+#info
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#info .icon
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 10px;   
+}
+#info .fa-info
+{
+    color: #0065FC;
+    margin-left: 8px;
+    margin-bottom: 2px;
 }
 
 
