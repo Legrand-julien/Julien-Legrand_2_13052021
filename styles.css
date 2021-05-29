@@ -1,7 +1,4 @@
-body
-{
-    font-family: 'Raleway', sans-serif;
-}
+
 
 /* HEADER */
 #headerbox a
@@ -63,7 +60,7 @@ li span
 h1
 {
     font-size: 45px;
-    font-weight: bold;
+    
 }
 
 #title p 
@@ -134,45 +131,48 @@ h1
 {
     display: flex;
     align-items: center;
-    background-color: cadetblue;
-    width: 100%;
-    font-size: 25px;
-    margin-top: 30px;    
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+#filters h3
+{
+    margin-right: 20px;
 }
 
-#filters .icon
+#filters .texticon
 {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#filters .txtfilters
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#filters i
+{
+    margin-left: -2px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center ;
-    font-size: 15px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #deebff;
-    color: #0065FC;
-    margin-right: 5px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebef;
 }
-#filters button
-{
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-left: 5px;
-    background-color: white;
-    border: 1px solid red;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-#filters .icon:hover
-{
-    color: darkblue;
-}
+
 
 /* INFO ICON */
 
