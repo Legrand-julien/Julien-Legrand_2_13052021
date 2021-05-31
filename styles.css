@@ -129,10 +129,11 @@ h1
 
 #filters
 {
+    
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     
 }
 #filters h3
@@ -178,6 +179,7 @@ h1
 
 #info
 {
+    background-color: tomato;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -197,64 +199,97 @@ h1
     margin-bottom: 2px;
 }
 
+/* CONTENEUR SECTTION HEBERGEMENTS */
+
+#lodging
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-content: space-between;
+}
+
 
 /* SECTION HEBERGEMENTS */
 
-#lodging a
+#lodgingbloc
 {
-    color: black;
-}
-.lodgingbloc
-{
-    width: 70%;
-    height: 700px;
+    width: 80%;
+    height: auto;
     background-color: #F2F2F2;
 }
+
 .card
 {
     width: 250px;  
     float: left;
-    margin: 10px;
+    margin: 15px;
     border: 1px solid #F2F2F2;
     padding: 8px;
     background-color: white;
-    box-shadow: 4px 4px #F2F2F2;
+    box-shadow: 1px 1px #ccc;
     border-radius: 15px;
 }
+
 .card img
 {
     width: 250px;
-    height: 150px;
-    background-color: #F2F2F2;
+    height: 115px;
     padding: 1px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
 }
+
 .zonetext
 {
+    border: 1px solid lightgray;
     margin-left: 7px;
-    
 }
-.checked 
+
+.stars
+{
+    color: #ccc;
+}
+
+.checked
 {
     color: #0065FC;
 }
-.stars
+
+/* SECTION MOST POPULAR */
+
+#mostpopular
 {
-    color: #F2F2F2;
+    background-color: #F2F2F2;
+    height: auto;
 }
 
-.blc_popular
-{ 
-    width: 20%;
-    height: 1000px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column; 
-    background-color: sandybrown;
+.mpcard
+{
+    width: 350px;
+    height: 150px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;    
 }
+
+.mpcard img
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+
+#mostpopular .zonetext
+{
+    height: 150px;
+    background-color: white;
+}
+
 
 
 /* SECTION ACTIVITES */
