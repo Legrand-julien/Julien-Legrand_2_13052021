@@ -1,13 +1,28 @@
 /* ALL */
 
-body a
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+a
 {
     text-decoration: none;
     color: black;
+}
 
+.stars
+{
+    color: #F2F2F2;
+}
+
+.checked
+{
+    color: #0065FC;
 }
 
 /* HEADER */
+
 #headerbox 
 {
     text-decoration: none;
@@ -21,24 +36,7 @@ body a
     justify-content: flex-end;
     align-items: stretch;
     height: 100px;
-}
-
-#headerbox li 
-{
-    display: inline-flex;
-    align-items: center;
-    height: 70px;
-    padding: 5px;
-    margin: 30px;
-    margin-top: -14px;
-}
-
-#headerbox img 
-{   
-    position: absolute;
-    left: 10px;
-    top: 50px;
-    color: #0065fc;
+    font-weight: 600;
 }
 
 #headerbox nav li:hover 
@@ -52,10 +50,29 @@ body a
     color: #0065fc;
 }
 
-li span
+#headerbox li 
 {
+    display: inline-flex;
+    align-items: center;
+    height: 70px;
+    padding: 5px;
+    margin: 30px;
+    margin-top: -14px;
+}
+
+#headerbox li span
+{
+    color: #0065FC;
+}
+
+#headerbox img 
+{   
+    position: absolute;
+    left: 10px;
+    top: 50px;
     color: #0065fc;
 }
+
 
 /* TITRE */
 
@@ -64,15 +81,16 @@ li span
     margin-top: -2px;
 }
 
-h1
+h2
 {
-    font-size: 45px;
-    
+    font-size: 25px;
+    font-weight: 700;
 }
 
 #title p 
 {
     margin-top: -15px;
+    font-weight: 400;
 }
 
 /* SECTION RECHERCHE */
@@ -87,8 +105,7 @@ h1
 .searchbar
 {
     display: flex;
-    height: 50px;
-    
+    height: 50px;  
 } 
 
 .searchbar .searchbtn
@@ -101,28 +118,37 @@ h1
     font-weight: 600;
     cursor: pointer;
     border-style: none;
-    background-color: #0065fc;
+    background-color: #0065FC;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-}
-
-.searchbar .fa-search
-{
-   visibility: hidden;
 }
 
 .searchbar .search
 {
     margin: 0;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 20px;
     width: 250px;
     height: 48px;
+    font-weight: 600;
 }
 
-.searchbar .fa-map-marker-alt 
+.searchbtn:hover
+{
+    color: #0065FC;
+    background-color: #deebef;
+    border: 1px solid #0065FC;
+}
+
+.fa-search
+{
+   visibility: hidden;
+}
+
+.fa-map-marker-alt 
 {
     width: 30px;
+    height: 32px;
     padding-left: 15px;
     padding-top: 18px;
     background-color: #F2F2F2;
@@ -131,20 +157,19 @@ h1
     border-top-left-radius: 15px;
 }
 
-
 /* SECTION FILTERS */
 
 #filters
 {
-    
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 35px;
-    
+    margin-bottom: 35px;   
 }
+
 #filters h3
 {
+    font-weight: 700;
     margin-right: 20px;
 }
 
@@ -153,10 +178,23 @@ h1
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid #f2f2f2;
     height: 50px;
+    border: 2px solid #f2f2f2;
     border-radius: 30px;
     margin-right: 20px;
+    font-weight: 700;
+}
+
+#filters .texticon:hover
+{
+    background-color: #deebef;
+    cursor: pointer;
+}
+
+#filters .texticon:hover > i
+{
+    color: white;
+    background-color: #0065FC;
 }
 
 #filters .txtfilters
@@ -181,16 +219,16 @@ h1
     background-color: #deebef;
 }
 
-
 /* INFO ICON */
 
 #info
 {
-    background-color: tomato;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 #info .icon
 {
     width: 20px;
@@ -199,6 +237,7 @@ h1
     border-radius: 25px;
     margin-right: 10px;   
 }
+
 #info .fa-info
 {
     color: #0065FC;
@@ -221,28 +260,47 @@ h1
 
 #lodgingbloc
 {
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin-right: 15px;
     background-color: #F2F2F2;
+    border-radius: 25px;
+}
+
+#lodgingbloc h2
+{
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.marseilleblc
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .card
 {
-    width: 250px;  
-    float: left;
+    
+    width: 260px;  
     margin: 15px;
+    height: 200px;
     border: 1px solid #F2F2F2;
-    padding: 8px;
     background-color: white;
-    box-shadow: 1px 1px #ccc;
+    box-shadow: 0 0 1em #ccc;
     border-radius: 15px;
 }
 
 .card img
 {
     width: 250px;
-    height: 115px;
-    padding: 1px;
+    height: 110px;
+    padding: 5px;
+    margin-bottom: -15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     object-fit: cover;
@@ -250,15 +308,24 @@ h1
 
 .zonetext
 {
-    margin-left: 7px;
+    line-height: 5px;
+    margin: auto;
+    margin-left: 15px;
 }
 
-.stars
+.namehotel, .price
 {
-    color: #ccc;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
-.checked
+.more
+{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.more:hover
 {
     color: #0065FC;
 }
@@ -267,40 +334,98 @@ h1
 
 #mostpopular
 {
-    background-color: #F2F2F2;
+    width: 50%;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #F2F2F2;    
+}
+
+.title
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: auto;
 }
 
-.mpcard
+.title h2 
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.title i
+{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.blocpopular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cyan;
+}
+
+
+
+.fullcard
 {
     width: 350px;
     height: 150px;
     margin: 15px;
+    border: 1px solid red; 
     padding: 5px;
-    border-radius: 20px; 
-    background-color: white;   
+    border-radius: 25px;
+    background-color: coral;
 }
 
-.mpcard img
+
+.cardimg img
 {
     float: left;
     width: 150px;
     height: 150px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    object-fit: cover;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
-#mostpopular .zonetext
+.cardbody
 {
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    align-content: flex-start;
-    height: 130px;
-    margin-left: 7px;
-    border: none;
-    
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+    line-height: 0em;
+    background-color: cornflowerblue;
 }
+
+.hotelname
+{
+    margin-top: 0px;
+    line-height: 1em;
+    font-weight: bold;
+    background-color: cornsilk;
+}
+
+.text
+{
+    margin-bottom: 30px;
+    background-color: brown;
+}
+
+.mpstars
+{
+    margin-bottom: 5px;
+    background-color: chocolate;
+}
+
+
+
 
 
 
