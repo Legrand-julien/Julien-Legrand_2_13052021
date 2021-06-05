@@ -299,13 +299,13 @@ h2
 
 .imgcard {
     width: 250px;
-    height: 100px;
+    height: 120px;
 }
 
 .imgcard img
 {
     width: 250px;
-    height: 100px;
+    height: 120px;
     padding: 5px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -461,7 +461,7 @@ h2
     width: 100%;
     height: auto;
     margin-bottom: 50px;
-    background-color: lightslategray;
+    background-color: #F2F2F2;
 }
 
 .container
@@ -479,7 +479,20 @@ h2
     box-shadow: 0 0 1em #ccc;
 }
 
-#act1 img
+.pictures h3 {
+    
+    margin-top:  0;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#act1 .pictures {
+    height: 455px;
+}
+
+#act1 img 
 {
     width: 300px;
     height: 400px;
@@ -488,15 +501,24 @@ h2
     object-fit: cover;
 }
 
+#act2 .pictures {
+    height: 240px;
+}
+
 #act2 img
 {
     width: 300px;
-    height: 150px;
+    height: 180px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: coral;
     object-fit: cover;
 }
+
+#act3 .pictures {
+    height: 155px;
+}
+
 #act3 img
 {
     width: 300px;
@@ -505,6 +527,11 @@ h2
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+
+#act4 .pictures {
+    height: 455px;
+}
+
 #act4 img
 {
     width: 300px;
@@ -513,6 +540,11 @@ h2
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+
+#act5 .pictures {
+    height: 200px;
+}
+
 #act5 img
 {
     width: 300px;
@@ -521,6 +553,11 @@ h2
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+
+#act6 .pictures {
+    height: 200px;
+}
+
 #act6 img
 {
     width: 300px;
@@ -529,6 +566,8 @@ h2
     border-top-right-radius: 20px;
     object-fit: cover;
 }
+
+
 
 /* FOOTER */
 
