@@ -1,0 +1,329 @@
+
+
+
+
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    .logo {
+
+        margin-left: 35px;
+    }
+}
+
+/* TITRE */
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #title {
+
+        width: auto;
+        margin-left: 35px;
+    }
+
+    #title h2 {
+
+        margin: 0;
+        line-height: 1em;
+        font-size: 20px;
+    }
+
+    #title p {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #searchbr {
+
+        width: auto;
+        margin-left: 35px;
+    }
+
+    .searchbtn {
+
+        width: 50px;
+        height: 50px;
+        margin-left: -10px;
+        padding: 0;
+        border-radius: 15px;
+    }
+
+    .searchbtn span {
+
+        visibility: collapse;
+    }
+
+
+
+    .searchbar .search {
+
+        width: 180px;
+        padding-left: 20px;
+    }
+
+    .searchbar .fa-search {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+        font-size: 20px;
+        padding: 0; 
+    }
+
+    .searchbar .fa-map-marker-alt {
+
+        width: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #filters {
+
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    #filters h3 {
+
+        margin-bottom: 10px;
+    }
+
+    #filters .texticon {
+
+        width: 250px;
+        margin: 10px 0px 10px 0px;
+        justify-content: flex-start;
+    }
+}
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #info {
+
+        margin: 20px 0px 20px 35px;
+    }
+
+    #info .icon {
+
+        display: flex;
+        align-items: center;
+        min-width: 20px;
+        border: 1px solid #ccc;
+    }
+}
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #lodging {
+
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #lodgingbloc {
+
+        background: none;
+    }
+
+    #lodgingbloc h2 {
+
+        font-size: 25px;
+        margin: 40px 0px 20px 35px;
+    }
+
+    .marseilleblc {
+
+        width: auto;
+        height: auto;
+        background-color: none;
+    }
+
+    .card {
+
+        width: 380px;
+    }
+
+    .card img {
+
+        width: 370px;
+    }
+
+    .more {
+
+        margin-left: 35px;
+    }    
+
+
+/* LES PLUS POPULAIRES */
+
+    #mostpopular {
+
+        width: auto;
+        height: auto;
+        order: -1;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .blocpopular {
+
+        width: auto;
+        height: 580px;
+        margin-top: 30px;
+    }
+
+    .title {
+
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        font-size: 17px;
+    }
+
+    .title h2 {
+
+        margin: 0px 0px 0px 35px;
+        font-size: 25px;
+    }
+
+    .title i {
+
+        margin: 0px 30px 0px 0px;
+        font-size: 25px;
+    }
+
+    .fullcard {
+
+        margin: 10px 0px 10px 0px;
+        width: 380px;
+    }
+
+    .cardbody {
+
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    .cardbody h3 {
+
+        padding-left: 30px;
+        font-size: 18px;
+    }
+
+   .cardbody .text {
+
+        padding-left: 30px;
+        font-size: 16px;
+   }
+
+   .cardbody .mpstars {
+
+        padding-left: 30px;
+   }
+}
+
+
+/* ACTIVITIES */
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    .acttitle {
+
+        margin: 40px 0px 20px 35px;
+        font-size: 25px;
+    }
+
+    .blocactivities {
+
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card-activity {
+
+        width: 380px;
+        height: 200px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .card-activity .act1 {
+
+        width: 380px;
+        height: 140px;
+    }
+
+    .card-activity .act2 {
+
+        width: 380px;
+        height: 140px;
+    }
+
+    .card-activity .act3 {
+
+        width: 380px;
+        height: 140px;
+    }
+
+    .card-activity .act4 {
+
+        width: 380px;
+        height: 140px;
+    }
+
+    .card-activity .act5 {
+
+        width: 380px;
+        height: 140px;
+        object-position: top;
+    }
+
+    .card-activity .act6 {
+
+        width: 380px;
+        height: 140px;
+    }
+}
+
+
+@media all and (min-width: 367px) and (max-width: 480px) {
+
+    #footerbox {
+
+        width: auto;
+        flex-direction: column;
+    }
+
+    #footerbox section {
+
+        margin-left: 17.5px;
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
