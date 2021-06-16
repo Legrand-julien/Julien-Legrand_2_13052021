@@ -1,46 +1,52 @@
+@media all and (min-width: 375px) and (max-width: 767px) {
+
+    #blocpage {
+
+        width: auto;
+    }
+}
 
 
 
 
-
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     .logo {
 
-        margin-left: 35px;
+        margin-left: 13px;
     }
 }
 
 /* TITRE */
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #title {
 
         width: auto;
-        margin-left: 35px;
+        margin-left: 13px;
     }
 
     #title h2 {
 
         margin: 0;
-        line-height: 1em;
+        line-height: 1.2em;
         font-size: 20px;
     }
 
     #title p {
 
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 20px;
     }
 }
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #searchbr {
 
         width: auto;
-        margin-left: 35px;
+        margin-left: 13px;
     }
 
     .searchbtn {
@@ -83,7 +89,7 @@
     }
 }
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #filters {
 
@@ -91,7 +97,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-top: 20px;
-        margin-left: 35px;
+        margin-left: 13px;
     }
 
     #filters h3 {
@@ -101,17 +107,24 @@
 
     #filters .texticon {
 
-        width: 250px;
+        width: 290px;
+        height: 48px;
         margin: 10px 0px 10px 0px;
         justify-content: flex-start;
+        border: 2px solid #ccc
+    }
+
+    #filters i {
+
+        margin-left: -2px;
     }
 }
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #info {
 
-        margin: 20px 0px 20px 35px;
+        margin: 20px 0px 20px 13px;
     }
 
     #info .icon {
@@ -123,7 +136,7 @@
     }
 }
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #lodging {
 
@@ -140,8 +153,8 @@
 
     #lodgingbloc h2 {
 
-        font-size: 25px;
-        margin: 40px 0px 20px 35px;
+        font-size: 20px;
+        margin: 40px 0px 20px 13px;
     }
 
     .marseilleblc {
@@ -153,17 +166,18 @@
 
     .card {
 
-        width: 380px;
+        width: 320px;
     }
 
     .card img {
 
-        width: 370px;
+        width: 310px;
     }
 
     .more {
 
-        margin-left: 35px;
+        margin-left: 13px;
+        font-size: 20px;
     }    
 
 
@@ -195,20 +209,21 @@
 
     .title h2 {
 
-        margin: 0px 0px 0px 35px;
-        font-size: 25px;
+        margin: 0px 0px 0px 13px;
+        font-size: 20px;
     }
 
     .title i {
 
         margin: 0px 30px 0px 0px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .fullcard {
 
         margin: 10px 0px 10px 0px;
-        width: 380px;
+        width: 320px;
+        
     }
 
     .cardbody {
@@ -219,31 +234,36 @@
 
     .cardbody h3 {
 
-        padding-left: 30px;
+        padding-left: 10px;
         font-size: 18px;
+    }
+
+    .cardimg img {
+
+        width: 115px;
     }
 
    .cardbody .text {
 
-        padding-left: 30px;
+        padding-left: 10px;
         font-size: 16px;
    }
 
    .cardbody .mpstars {
 
-        padding-left: 30px;
+        padding-left: 10px;
    }
 }
 
 
 /* ACTIVITIES */
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     .acttitle {
 
-        margin: 40px 0px 20px 35px;
-        font-size: 25px;
+        margin: 40px 0px 20px 13px;
+        font-size: 20px;
     }
 
     .blocactivities {
@@ -256,51 +276,54 @@
 
     .card-activity {
 
-        width: 380px;
+        width: 320px;
         height: 200px;
         margin: 10px 0px 10px 0px;
     }
 
     .card-activity .act1 {
 
-        width: 380px;
+        width: 320px;
         height: 140px;
     }
 
     .card-activity .act2 {
 
-        width: 380px;
+        width: 320px;
         height: 140px;
     }
 
     .card-activity .act3 {
 
-        width: 380px;
-        height: 140px;
+        width: 320px;
+        height: 145px;
+        object-position: top;
     }
 
     .card-activity .act4 {
 
-        width: 380px;
+        width: 320px;
         height: 140px;
+        object-position: top;
     }
 
     .card-activity .act5 {
 
-        width: 380px;
+        width: 320px;
         height: 140px;
         object-position: top;
     }
 
     .card-activity .act6 {
 
-        width: 380px;
-        height: 140px;
+        width: 320px;
+        height: 145px;
+        object-position: top;
     }
 }
 
 
-@media all and (min-width: 367px) and (max-width: 480px) {
+@media all and (min-width: 375px) and (max-width: 767px) {
 
     #footerbox {
 
@@ -311,7 +334,7 @@
     #footerbox section {
 
         margin-left: 17.5px;
-        padding-left: 30px;
+        padding-left: 10px;
     }
 }
 

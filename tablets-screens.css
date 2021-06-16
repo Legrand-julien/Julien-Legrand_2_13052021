@@ -199,13 +199,34 @@
 
     .fullcard {
 
-        width: 340px;
+        width: 350px;
         margin: 15px 10px 5px 10px;
     }
 
     .cardbody {
 
         width: auto;
+    }
+
+    .cardimg img {
+
+        width: 120px;
+    }
+
+    .hotelname h3 {
+
+        padding-left: 13px;
+    }
+
+    .text {
+
+        padding-left: 13px;
+    }
+
+    .mpstars {
+
+        padding-left: 13px;
+        margin-top: 30px;
     }
 
 }
