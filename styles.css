@@ -9,7 +9,7 @@ body {
 
 #blocpage {
 
-    margin: 0px 30px;
+    margin: 10px 30px 0px 30px;
 }
 
 a {
@@ -32,57 +32,70 @@ a {
 
 #headerbox {
 
+    margin: 0 auto;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-decoration: none;
     color: black;
     font-weight: normal;
 }
 
-#headerbox nav {
+.logo {
 
+    flex-grow: 1;
+}
+
+.logo img {
+
+    padding-top: 48px;
+}
+
+#headerbox nav ul {
+
+    margin: 0 auto;
+    padding-right: 30px;
     display: flex;
-    justify-content: flex-end;
-    align-items: stretch;
-    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 315px;
+    list-style-type: none;
     font-weight: 600;
 }
 
-#headerbox nav li:hover {
-    
-    border-top: solid 2px #0065fc;
-    padding-top: 0px;
+#headerbox nav ul li a {
+
+    display: block;
+    padding: 48px 0;
+    border-top: 2px solid white;
 }
 
-#headerbox nav a:hover {
+#headerbox nav li a:hover {
 
-    color: #0065fc;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
-#headerbox li {
+#headerbox .sign-in {
 
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 70px;
-    padding: 5px;
-    margin-top: -14px;
+    color: #0065FC;
+    font-weight: 600;
 }
 
-.menu {
-
-    margin-right: 20px;
-}
-
-#headerbox li span {
+.sign-in span {
 
     color: #0065FC;
 }
 
-#headerbox img {
+.sign-in span:hover {
 
-    padding: 40px 0;
+    color: black;
 }
+
+
 
 /* TITRE */
 
@@ -245,7 +258,7 @@ a {
 
     width: 20px;
     height: 20px;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #ccc;
     border-radius: 25px;
     margin-right: 10px;   
 }
@@ -407,7 +420,7 @@ a {
 
 .title h2 {
 
-    margin-top: 60px;
+    margin-top: 65px;
     margin-bottom: 0;
     margin-left: 30px;
     font-weight: 900;
@@ -417,6 +430,7 @@ a {
 
     margin-top: 60px;
     margin-right: 30px;
+    font-size: 1.50em;
 }
 
 

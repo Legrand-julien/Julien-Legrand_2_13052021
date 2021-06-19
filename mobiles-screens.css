@@ -3,19 +3,69 @@
     #blocpage {
 
         width: auto;
+        margin: 15px 10px 0 10px;
+
     }
 }
 
 
-
+/* HEADERBOX */
 
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    .logo {
+    #headerbox {
+
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #headerbox .logo {
 
         margin-left: 13px;
     }
+
+    #headerbox .logo img {
+
+        padding: 0;
+    }
+
+    #headerbox nav {
+
+        order: 2;
+        width: 100%;
+    }
+
+    #headerbox nav ul {
+
+        width: 100%;
+        padding: 0;
+    }
+
+    #headerbox nav ul li {
+
+        width: 50%;
+        text-align: center;
+    }
+
+    #headerbox nav ul li a:active {
+
+        color: #0065FC;
+        border-bottom-color: #0065FC;
+    }
+
+    #headerbox nav ul li a, #headerbox nav ul li a:hover {
+
+        border: none;
+        padding: 23px 0 20px;
+        border-bottom: 2px solid #ccc;
+    }
+
+    #headerbox .sign-in {
+
+        margin: 25px 0;
+    }
 }
+
 
 /* TITRE */
 
@@ -25,6 +75,7 @@
 
         width: auto;
         margin-left: 13px;
+        margin-top: 20px;
     }
 
     #title h2 {
