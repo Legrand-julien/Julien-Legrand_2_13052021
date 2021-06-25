@@ -1,6 +1,6 @@
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    #blocpage {
+    #bloc-page {
 
         width: auto;
         margin: 15px 10px 0 10px;
@@ -12,54 +12,54 @@
 
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    #headerbox {
+    #header-box {
 
         align-items: center;
         margin-top: 20px;
     }
 
-    #headerbox .logo {
+    #header-box .logo {
 
         margin-left: 13px;
     }
 
-    #headerbox .logo img {
+    #header-box .logo img {
 
         padding: 0;
     }
 
-    #headerbox nav {
+    #header-box nav {
 
         order: 2;
         width: 100%;
     }
 
-    #headerbox nav ul {
+    #header-box nav ul {
 
         width: 100%;
         padding: 0;
     }
 
-    #headerbox nav ul li {
+    #header-box nav ul li {
 
         width: 50%;
         text-align: center;
     }
 
-    #headerbox nav ul li a:active {
+    #header-box nav ul li a:active {
 
         color: #0065FC;
         border-bottom-color: #0065FC;
     }
 
-    #headerbox nav ul li a, #headerbox nav ul li a:hover {
+    #header-box nav ul li a, #header-box nav ul li a:hover {
 
         border: none;
         padding: 23px 0 20px;
         border-bottom: 2px solid #ccc;
     }
 
-    #headerbox .sign-in {
+    #header-box .sign-in {
 
         margin: 25px 0;
     }
@@ -93,13 +93,13 @@
 
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    #searchbr {
+    #search-br {
 
         width: auto;
         margin-left: 13px;
     }
 
-    .searchbtn {
+    .search-button {
 
         width: 50px;
         height: 50px;
@@ -108,18 +108,18 @@
         border-radius: 15px;
     }
 
-    .searchbtn span {
+    .search-button span {
 
         display: none;
     }
 
-    .searchbar .search {
+    .search-bar .search {
 
         width: 180px;
         padding-left: 20px;
     }
 
-    .searchbar .fa-search {
+    .search-bar .fa-search {
 
         display: flex;
         align-self: center;
@@ -128,7 +128,7 @@
         padding: 0; 
     }
 
-    .searchbar .fa-map-marker-alt {
+    .search-bar .fa-map-marker-alt {
 
         width: 25px;
         display: flex;
@@ -152,7 +152,7 @@
         margin-bottom: 10px;
     }
 
-    #filters .texticon {
+    #filters .text-icons {
 
         width: 290px;
         height: 48px;
@@ -193,18 +193,18 @@
         justify-content: flex-start;
     }
 
-    #lodgingbloc {
+    #lodging-bloc {
 
         background: none;
     }
 
-    #lodgingbloc h2 {
+    #lodging-bloc h2 {
 
         font-size: 20px;
         margin: 40px 0px 20px 13px;
     }
 
-    .marseilleblc {
+    .marseille-bloc {
 
         width: auto;
         height: auto;
@@ -230,7 +230,7 @@
 
 /* LES PLUS POPULAIRES */
 
-    #mostpopular {
+    #most-popular {
 
         width: auto;
         height: auto;
@@ -239,7 +239,7 @@
         border-radius: 0;
     }
 
-    .blocpopular {
+    .bloc-popular {
 
         width: auto;
         height: 580px;
@@ -266,36 +266,36 @@
         font-size: 20px;
     }
 
-    .fullcard {
+    .full-card {
 
         margin: 10px 0px 10px 0px;
         width: 320px; 
     }
 
-    .cardbody {
+    .card-body {
 
         width: auto;
         flex-wrap: wrap;
     }
 
-    .cardbody h3 {
+    .card-body h3 {
 
         padding-left: 10px;
         font-size: 18px;
     }
 
-    .cardimg img {
+    .card-img img {
 
         width: 115px;
     }
 
-   .cardbody .text {
+   .card-body .text {
 
         padding-left: 10px;
         font-size: 16px;
    }
 
-   .cardbody .mpstars {
+   .card-body .most-popular-stars {
 
         padding-left: 10px;
    }
@@ -306,13 +306,13 @@
 
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    .acttitle {
+    .activities-title {
 
         margin: 40px 0px 20px 13px;
         font-size: 20px;
     }
 
-    .blocactivities {
+    .bloc-activities {
 
         width: auto;
         height: auto;
@@ -371,13 +371,13 @@
 
 @media all and (min-width: 375px) and (max-width: 767px) {
 
-    #footerbox {
+    #footer-box {
 
         width: auto;
         flex-direction: column;
     }
 
-    #footerbox section {
+    #footer-box section {
 
         margin-left: 17.5px;
         padding-left: 10px;

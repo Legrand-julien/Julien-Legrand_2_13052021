@@ -1,6 +1,6 @@
 @media all and (max-width: 1200px) {
 
-    #blocpage {
+    #bloc-page {
 
         width: auto;
         margin: 0px 15px;
@@ -9,7 +9,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
 
-    #headerbox img {
+    #header-box img {
 
         margin-left: 10px;
     }
@@ -31,7 +31,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
 
-    .searchbar {
+    .search-bar {
 
         margin-left: 10px;
     }
@@ -50,7 +50,7 @@
         margin-top: 15px;
     }
 
-    #filters .texticon {
+    #filters .text-icons {
 
         width: 450px;
         height: 47px;
@@ -109,7 +109,7 @@
 
     /* SECTION HEBERGEMENTS A MARSEILLE */
 
-    #lodgingbloc {
+    #lodging-bloc {
 
         background: none;
         width: auto;
@@ -117,7 +117,7 @@
         margin-top: 30px;
     }
 
-    #lodgingbloc h2 {
+    #lodging-bloc h2 {
 
         margin-top: 25px;
         margin-left: 10px;
@@ -125,7 +125,7 @@
         height: max-content;
     }
 
-    .marseilleblc {
+    .marseille-bloc {
 
         justify-content: flex-start;
         background: none;
@@ -140,7 +140,7 @@
         width: 350px;
     }
 
-    .imgcard img {
+    .img-card img {
 
         width: 340px;
         object-fit: cover;
@@ -156,7 +156,7 @@
 
 @media all and (min-width: 768px ) and (max-width: 1200px) {
 
-    #mostpopular {
+    #most-popular {
 
         background-color: #f2f2f2;
         width: auto;
@@ -166,7 +166,7 @@
         border-radius: 0;
     }
 
-    .blocpopular {
+    .bloc-popular {
 
         width: auto;
         height: auto;
@@ -197,23 +197,23 @@
         font-size: 22px;  
     }
 
-    .fullcard {
+    .full-card {
 
         width: 350px;
         margin: 15px 10px 5px 10px;
     }
 
-    .cardbody {
+    .card-body {
 
         width: auto;
     }
 
-    .cardimg img {
+    .card-img img {
 
         width: 120px;
     }
 
-    .hotelname h3 {
+    .hotel-name h3 {
 
         padding-left: 13px;
     }
@@ -223,7 +223,7 @@
         padding-left: 13px;
     }
 
-    .mpstars {
+    .most-popular-stars {
 
         padding-left: 13px;
         margin-top: 30px;
@@ -242,14 +242,14 @@
         margin-bottom: 50px;
     }
     
-    .acttitle {
+    .activities-title {
 
         margin-bottom: 30px;
         margin-left: 10px;
         font-size: 20px;
     }
 
-    .blocactivities {
+    .bloc-activities {
                 
         width: auto;
         height: auto;
@@ -308,19 +308,19 @@
 
 @media all and (min-width: 768px ) and (max-width: 1200px) {
 
-    #footerbox {
+    #footer-box {
 
         width: auto;
         background: #f2f2f2;
     }
 
-    #footerbox section {
+    #footer-box section {
 
         padding-left: 23px;
         margin-top: 0;
     }
 
-    #footerbox h3 {
+    #footer-box h3 {
 
         font-size: 18px;
     }
