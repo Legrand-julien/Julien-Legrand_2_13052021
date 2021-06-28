@@ -1,45 +1,42 @@
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1440px) {
+
+    html {
+
+        overflow-x: hidden;
+    }
+
+    body {
+
+        overflow-x: hidden;
+    }
 
     #bloc-page {
 
         width: auto;
         margin: 0px 15px;
     }
-}
-
-@media all and (min-width: 768px) and (max-width: 1200px) {
 
     #header-box img {
 
         margin-left: 10px;
     }
-}
 
-
-/* TITRE */
-
-@media all and (min-width: 768px) and (max-width: 1200px) {
+    /* TITRE */
 
     #title {
 
         width: auto;
         margin-left: 10px;  
     }
-}
 
-/* SECTION DE RECHERCHE */
-
-@media all and (min-width: 768px) and (max-width: 1200px) {
+    /* SECTION DE RECHERCHE */
 
     .search-bar {
 
-        margin-left: 10px;
+        margin-left: 5px;
     }
-}
-    
-/* SECTION FILTRES */
 
-@media all and (min-width: 768px ) and (max-width: 1200px) {
+    /* SECTION FILTRES */
 
     #filters {
 
@@ -63,10 +60,6 @@
 
         margin-left: -2px;
     }
-
-}
-
-@media all and (min-width: 768px ) and (max-width: 1200px) {
 
     #info {
 
@@ -93,11 +86,8 @@
         margin-top: 10px;
         margin-bottom: 10px; 
     }
-}
 
-/* SECTION HEBERGEMENT */
-
-@media all and (min-width: 768px ) and (max-width: 1200px) {
+    /* SECTION HEBERGEMENT */
 
     #lodging {
 
@@ -127,10 +117,8 @@
 
     .marseille-bloc {
 
-        justify-content: flex-start;
         background: none;
         margin-top: 10px;
-        
     }
 
     .card {
@@ -150,17 +138,14 @@
 
         margin-left: 10px;
     }
-}
 
-/* SECTION HEBERGEMENT LES PLUS POPULAIRES */
-
-@media all and (min-width: 768px ) and (max-width: 1200px) {
+    /* SECTION HEBERGEMENT LES PLUS POPULAIRES */
 
     #most-popular {
 
         background-color: #f2f2f2;
         width: auto;
-        height: 480px;
+        height: 450px;
         margin-left: 0;
         order: -1;
         border-radius: 0;
@@ -171,6 +156,7 @@
         width: auto;
         height: auto;
         flex-direction: row;
+        justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 0;
     }
@@ -229,11 +215,7 @@
         margin-top: 30px;
     }
 
-}
-
-/* ACTIVITES A MARSEILLE */
-
-@media all and (min-width: 768px ) and (max-width: 1200px) {
+    /* ACTIVITES A MARSEILLE */
 
     #activities {
         
@@ -254,7 +236,7 @@
         width: auto;
         height: auto;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-around;
     }
     
     .card-activity {
@@ -304,9 +286,8 @@
         height: 150px;
         object-fit: cover;
     }
-}
 
-@media all and (min-width: 768px ) and (max-width: 1200px) {
+    /* FOOTER */
 
     #footer-box {
 

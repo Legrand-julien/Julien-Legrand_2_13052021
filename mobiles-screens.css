@@ -1,16 +1,22 @@
-@media all and (min-width: 375px) and (max-width: 767px) {
+@media all and (min-width: 300px) and (max-width: 768px) {
+
+    html {
+
+        overflow-x: hidden;
+    }
+
+    body {
+
+        overflow-x: hidden;
+    }
 
     #bloc-page {
 
-        width: auto;
-        margin: 15px 10px 0 10px;
+        width: 100%;
+        margin: 15px 0px 0px 0px;
     }
-}
 
-
-/* HEADERBOX */
-
-@media all and (min-width: 375px) and (max-width: 767px) {
+    /* HEADERBOX */
 
     #header-box {
 
@@ -61,14 +67,10 @@
 
     #header-box .sign-in {
 
-        margin: 25px 0;
+        margin: 20px 30px 20px 20px;
     }
-}
 
-
-/* TITRE */
-
-@media all and (min-width: 375px) and (max-width: 767px) {
+    /* TITRE */
 
     #title {
 
@@ -89,14 +91,11 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
-}
-
-@media all and (min-width: 375px) and (max-width: 767px) {
 
     #search-br {
 
         width: auto;
-        margin-left: 13px;
+        margin-left: 10px;
     }
 
     .search-button {
@@ -134,9 +133,6 @@
         display: flex;
         justify-content: center;
     }
-}
-
-@media all and (min-width: 375px) and (max-width: 767px) {
 
     #filters {
 
@@ -165,9 +161,6 @@
 
         margin-left: -2px;
     }
-}
-
-@media all and (min-width: 375px) and (max-width: 767px) {
 
     #info {
 
@@ -178,12 +171,9 @@
 
         display: flex;
         align-items: center;
-        min-width: 20px;
+        min-width: 25px;
         border: 1px solid #ccc;
     }
-}
-
-@media all and (min-width: 375px) and (max-width: 767px) {
 
     #lodging {
 
@@ -206,19 +196,19 @@
 
     .marseille-bloc {
 
-        width: auto;
+        width: 98%;
         height: auto;
         background: none;
     }
 
     .card {
 
-        width: 320px;
+        width: 290px;
     }
 
     .card img {
 
-        width: 310px;
+        width: 280px;
     }
 
     .more {
@@ -227,8 +217,7 @@
         font-size: 20px;
     }    
 
-
-/* LES PLUS POPULAIRES */
+    /* LES PLUS POPULAIRES */
 
     #most-popular {
 
@@ -241,8 +230,8 @@
 
     .bloc-popular {
 
+        justify-content: space-around;
         width: auto;
-        height: 580px;
         margin-top: 30px;
     }
 
@@ -256,20 +245,20 @@
 
     .title h2 {
 
-        margin: 0px 0px 0px 13px;
+        margin-left:  13px;
         font-size: 20px;
     }
 
     .title i {
 
-        margin: 0px 30px 0px 0px;
+        margin-bottom: 30px;
         font-size: 20px;
     }
 
     .full-card {
 
         margin: 10px 0px 10px 0px;
-        width: 320px; 
+        width: 300px; 
     }
 
     .card-body {
@@ -286,7 +275,7 @@
 
     .card-img img {
 
-        width: 115px;
+        width: 100px;
     }
 
    .card-body .text {
@@ -299,12 +288,8 @@
 
         padding-left: 10px;
    }
-}
 
-
-/* ACTIVITIES */
-
-@media all and (min-width: 375px) and (max-width: 767px) {
+    /* ACTIVITIES */
 
     .activities-title {
 
@@ -317,59 +302,55 @@
         width: auto;
         height: auto;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .card-activity {
 
-        width: 320px;
+        width: 290px;
         height: 200px;
         margin: 10px 0px 10px 0px;
     }
 
     .card-activity .act1 {
 
-        width: 320px;
+        width: 290px;
         height: 140px;
     }
 
     .card-activity .act2 {
 
-        width: 320px;
+        width: 290px;
         height: 140px;
     }
 
     .card-activity .act3 {
 
-        width: 320px;
+        width: 290px;
         height: 145px;
         object-position: top;
     }
 
     .card-activity .act4 {
 
-        width: 320px;
+        width: 290px;
         height: 140px;
         object-position: top;
     }
 
     .card-activity .act5 {
 
-        width: 320px;
+        width: 290px;
         height: 140px;
         object-position: top;
     }
 
     .card-activity .act6 {
 
-        width: 320px;
+        width: 290px;
         height: 145px;
         object-position: top;
     }
-}
-
-
-@media all and (min-width: 375px) and (max-width: 767px) {
 
     #footer-box {
 
