@@ -1,15 +1,5 @@
 @media all and (max-width: 1440px) {
 
-    html {
-
-        overflow-x: hidden;
-    }
-
-    body {
-
-        overflow-x: hidden;
-    }
-
     #bloc-page {
 
         width: auto;

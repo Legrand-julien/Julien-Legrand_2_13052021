@@ -1,15 +1,5 @@
 @media all and (min-width: 300px) and (max-width: 768px) {
 
-    html {
-
-        overflow-x: hidden;
-    }
-
-    body {
-
-        overflow-x: hidden;
-    }
-
     #bloc-page {
 
         width: 100%;
@@ -360,6 +350,7 @@
 
     #footer-box section {
 
+        width: auto;
         margin-left: 17.5px;
         padding-left: 10px;
     }
