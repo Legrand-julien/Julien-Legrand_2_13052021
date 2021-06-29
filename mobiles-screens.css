@@ -2,7 +2,7 @@
 
     #bloc-page {
 
-        width: 100%;
+        width: auto;
         margin: 15px 0px 0px 0px;
     }
 
@@ -346,6 +346,7 @@
 
         width: auto;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     #footer-box section {
@@ -353,6 +354,16 @@
         width: auto;
         margin-left: 17.5px;
         padding-left: 10px;
+    }
+
+    #footer-box section ul li {
+
+        width: 98%;
+    }
+
+    #footer-box h3 {
+
+        width: auto;
     }
 }
 

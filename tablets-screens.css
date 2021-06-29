@@ -282,6 +282,7 @@
     #footer-box {
 
         width: auto;
+        justify-content: space-between;
         background: #f2f2f2;
     }
 
@@ -289,10 +290,17 @@
 
         padding-left: 23px;
         margin-top: 0;
+        width: auto;
+    }
+
+    #footer-box ul {
+
+        width: 230px;
     }
 
     #footer-box h3 {
 
         font-size: 18px;
+        width: auto;
     }
 }
